@@ -1,6 +1,6 @@
-﻿using BeverageServer.Extensions;
+﻿using BeverageServer.Classes.Extensions;
 
-namespace BeverageServer.Classes
+namespace BeverageServer.Classes.Drinks
 {
     public class Juice : Drink
     {
@@ -16,7 +16,7 @@ namespace BeverageServer.Classes
         }
         public override string ShowDrinkInformation()
         {
-            return $"Beverage Type: {GetDrinkType()}\nName: {Name}\nCarbonated: {BasicMethods.ReturnYesOrNoForBools(IsCarbonated)}\nBase Fruit: {BaseFruitIngredient}\nOther Fruit: {this.StringifySecondaryIngredients()}\nDescription: {Description}";
+            return $"Beverage Type: {GetDrinkType()}\nName: {Name}\nCarbonated: {BasicMethods.ReturnYesOrNoForBools(IsCarbonated)}\nBase Fruit: {BaseFruitIngredient}\nOther Fruit: {StringifySecondaryIngredients()}\nDescription: {Description}";
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿using BeverageServer.Extensions;
+﻿using BeverageServer.Classes.Extensions;
 
-namespace BeverageServer.Classes
+namespace BeverageServer.Classes.Drinks
 {
     public class Drink
     {

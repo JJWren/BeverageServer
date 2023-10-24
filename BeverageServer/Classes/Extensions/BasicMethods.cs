@@ -1,4 +1,4 @@
-﻿namespace BeverageServer.Extensions
+﻿namespace BeverageServer.Classes.Extensions
 {
     public class BasicMethods
     {

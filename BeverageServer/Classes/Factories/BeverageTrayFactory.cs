@@ -1,4 +1,6 @@
-﻿namespace BeverageServer.Classes.Factories
+﻿using BeverageServer.Classes.Drinks;
+
+namespace BeverageServer.Classes.Factories
 {
     /// <summary>
     /// Factory design to instantiatie different beverage trays.
